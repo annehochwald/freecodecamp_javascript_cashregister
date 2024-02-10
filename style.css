@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #152636;
+  --light-blue: #57b8bc;
+  --turquoise: #b4d2d3;
+  --beige: #f3cfa4;
+}
+
+body {
+  background: var(--dark-blue);
+  color: var(--turquoise);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px, 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#change-due {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 20px;
+}
+
+label {
+  font-size: 22px;
+}
+
+.user-input {
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  background: var(--beige);
+}
+
+.price-screen {
+  border: 10px solid var(--light-blue);
+  background: black;
+  height: 60px;
+  width: 200px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#price {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.top-register {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 35px 35px 0 0;
+  padding-top: 20px;
+  background: var(--light-blue);
+  height: 270px;
+  width: 335px;
+}
+
+.keypad {
+  width: 25%;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.key {
+  border-radius: 10%;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet);
+}
+
+.check-btn-styles {
+  cursor: pointer;
+  width: 120px;
+  height: 35px;
+  margin: 10px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--beige);
+  background-image: linear-gradient(#d9cfbc, #cdbbad);
+  border-color: var(--beige);
+  border-width: 3px;
+}
+
+.cash-display {
+  font-size: 1.1rem;
+  background-color: var(--beige);
+  width: 55%;
+  height: 95%;
+  color: black;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
